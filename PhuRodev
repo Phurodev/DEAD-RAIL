@@ -134,7 +134,7 @@ local Window = ArrayField:CreateWindow({
 
             if rb and rb.PrimaryPart then
                 wait(1)
-                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48811.121))
+                rb:SetPrimaryPartCFrame(CFrame.new(-290.437,0.35,-48811.121))
             end
             --function
         end,
@@ -155,7 +155,7 @@ local Window = ArrayField:CreateWindow({
 
             if rb and rb.PrimaryPart then
                 wait(1)
-                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48866.121))
+                rb:SetPrimaryPartCFrame(CFrame.new(-290.437,0.35,-48866.121))
             end
             --function
         end,
@@ -176,7 +176,7 @@ local Window = ArrayField:CreateWindow({
 
             if rb and rb.PrimaryPart then
                 wait(1)
-                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48921.121))
+                rb:SetPrimaryPartCFrame(CFrame.new(-290.437,0.35,-48921.121))
             end
             --function
         end,
@@ -197,7 +197,7 @@ local Window = ArrayField:CreateWindow({
 
             if rb and rb.PrimaryPart then
                 wait(1)
-                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48976.121))
+                rb:SetPrimaryPartCFrame(CFrame.new(-290.437,0.35,-48976.121))
             end
             --function
         end,
