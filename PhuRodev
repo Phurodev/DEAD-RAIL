@@ -46,11 +46,12 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local rb = game.Workspace:FindFirstChild("RBSPLOIT")
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
-                wait(2)
-                rb:SetPrimaryPartCFrame(CFrame.new(0, 0, 0))
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new(-469.937,0.35,-48811.121))
             end
             --function
         end,
@@ -59,7 +60,7 @@ local Window = ArrayField:CreateWindow({
 
     Tab:CreateSpacing(nil,10)
     local Button = Tab:CreateButton({
-        Name = "TP 1 Bond",
+        Name = "TP 2 Bond",
         Info = {
             Title = 'Touch',
             Description = 'tp',
@@ -67,11 +68,12 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local rb = game.Workspace:FindFirstChild("RBSPLOIT")
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
-                wait(2)
-                rb:SetPrimaryPartCFrame(CFrame.new(0, 0, 0))
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new(-469.937,0.35,-48866.121))
             end
             --function
         end,
@@ -80,7 +82,7 @@ local Window = ArrayField:CreateWindow({
 
     Tab:CreateSpacing(nil,10)
     local Button = Tab:CreateButton({
-        Name = "TP 1 Bond",
+        Name = "TP 3 Bond",
         Info = {
             Title = 'Touch',
             Description = 'tp',
@@ -88,15 +90,124 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local rb = game.Workspace:FindFirstChild("RBSPLOIT")
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
-                wait(2)
-                rb:SetPrimaryPartCFrame(CFrame.new(0, 0, 0))
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new(-469.937,0.35,-48921.121))
             end
             --function
         end,
     })
  
 
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 4 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
 
+            if rb and rb.PrimaryPart then
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new(-469.937,0.35,-48976.121))
+            end
+            --function
+        end,
+    })
+ 
+
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 5 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
+
+            if rb and rb.PrimaryPart then
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48811.121))
+            end
+            --function
+        end,
+    })
+ 
+
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 6 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
+
+            if rb and rb.PrimaryPart then
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48866.121))
+            end
+            --function
+        end,
+    })
+ 
+
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 7 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
+
+            if rb and rb.PrimaryPart then
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48921.121))
+            end
+            --function
+        end,
+    })
+ 
+
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 8 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local name = game:GetService("Players").LocalPlayer.Name
+            local rb = game.Workspace:FindFirstChild(name)
+
+            if rb and rb.PrimaryPart then
+                wait(1)
+                rb:SetPrimaryPartCFrame(CFrame.new((-290.437,0.35,-48976.121))
+            end
+            --function
+        end,
+    })
+ 
