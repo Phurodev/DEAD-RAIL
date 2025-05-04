@@ -38,14 +38,65 @@ local Window = ArrayField:CreateWindow({
   
     Tab:CreateSpacing(nil,10)
     local Button = Tab:CreateButton({
-        Name = "Button Example",
+        Name = "TP 1 Bond",
         Info = {
-            Title = 'This is a Button',
-            Description = 'This is a description for the button you know.',
+            Title = 'Touch',
+            Description = 'tp',
         },
         Interact = 'Changable',
         Callback = function()
-            print('Pressed')
+            --function
+            local rb = game.Workspace:FindFirstChild("RBSPLOIT")
+
+            if rb and rb.PrimaryPart then
+                wait(2)
+                rb:SetPrimaryPartCFrame(CFrame.new(0, 0, 0))
+            end
+            --function
+        end,
+    })
+
+
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 1 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local rb = game.Workspace:FindFirstChild("RBSPLOIT")
+
+            if rb and rb.PrimaryPart then
+                wait(2)
+                rb:SetPrimaryPartCFrame(CFrame.new(0, 0, 0))
+            end
+            --function
+        end,
+    })
+
+
+    Tab:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "TP 1 Bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'tp',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            local rb = game.Workspace:FindFirstChild("RBSPLOIT")
+
+            if rb and rb.PrimaryPart then
+                wait(2)
+                rb:SetPrimaryPartCFrame(CFrame.new(0, 0, 0))
+            end
+            --function
         end,
     })
  
+
+
