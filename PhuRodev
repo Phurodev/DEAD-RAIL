@@ -3,23 +3,23 @@ local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ho
 
 local Window = ArrayField:CreateWindow({
         Name = "ArrayField Example Window",
-        LoadingTitle = "ArrayField Interface Suite",
-        LoadingSubtitle = "by Arrays",
+        LoadingTitle = "Phurodev",
+        LoadingSubtitle = "by RBSPLOIT",
         ConfigurationSaving = {
             Enabled = true,
             FolderName = nil, -- Create a custom folder for your hub/game
-            FileName = "ArrayField"
+            FileName = "Phurodev Hub"
         },
         Discord = {
             Enabled = false,
             Invite = "sirius", -- The Discord invite code, do not include discord.gg/
             RememberJoins = true -- Set this to false to make them join the discord every time they load it up
         },
-        KeySystem = true, -- Set this to true to use our key system
+        KeySystem = false, -- Set this to true to use our key system
         KeySettings = {
             Title = "ArrayField",
             Subtitle = "Key System",
-            Note = "Join the discord (discord.gg/sirius)",
+            Note = "Key = concac",
             FileName = "ArrayFieldsKeys",
             SaveKey = false,
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like ArrayField to get the key from
@@ -232,3 +232,7 @@ local Window = ArrayField:CreateWindow({
 
         end,
     })
+
+ 
+ 
+ 
