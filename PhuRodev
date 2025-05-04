@@ -1,6 +1,6 @@
 local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AArrayfield%20Library"))()
 --Documentation url: https://docs.sirius.menu/community/arrayfield
-
+local name = game:GetService("Players").LocalPlayer.Name
 local Window = ArrayField:CreateWindow({
         Name = "PhuRodev HUB",
         LoadingTitle = "PhuRodev",
@@ -46,7 +46,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -68,7 +67,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -90,7 +88,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -112,7 +109,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -134,7 +130,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -156,7 +151,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -178,7 +172,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
@@ -200,7 +193,6 @@ local Window = ArrayField:CreateWindow({
         Interact = 'Changable',
         Callback = function()
             --function
-            local name = game:GetService("Players").LocalPlayer.Name
             local rb = game.Workspace:FindFirstChild(name)
 
             if rb and rb.PrimaryPart then
