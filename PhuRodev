@@ -208,7 +208,7 @@ local Window = ArrayField:CreateWindow({
     local Tab2 = Window:CreateTab("bypass", 4483362458) -- Title, Image
 
     Tab2:CreateSpacing(nil,10)
-    local Button = Tab:CreateButton({
+    local Button = Tab2:CreateButton({
         Name = "Bypass",
         Info = {
             Title = 'Touch',
@@ -223,7 +223,7 @@ local Window = ArrayField:CreateWindow({
     })
 
     Tab2:CreateSpacing(nil,10)
-    local Button = Tab:CreateButton({
+    local Button = Tab2:CreateButton({
         Name = "auto bond",
         Info = {
             Title = 'Touch',
