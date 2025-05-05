@@ -203,3 +203,37 @@ local Window = ArrayField:CreateWindow({
         end,
     })
  
+
+
+    local Tab2 = Window:CreateTab("bypass", 4483362458) -- Title, Image
+
+    Tab2:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "Bypass",
+        Info = {
+            Title = 'Touch',
+            Description = 'bypass anticheat',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/reworked-bypass-v2/refs/heads/main/Protected_7262663125150928.lua.txt"))()
+            --function
+        end,
+    })
+
+    Tab2:CreateSpacing(nil,10)
+    local Button = Tab:CreateButton({
+        Name = "auto bond",
+        Info = {
+            Title = 'Touch',
+            Description = 'script',
+        },
+        Interact = 'Changable',
+        Callback = function()
+            --function
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-NullFire-32921"))()
+            --function
+        end,
+    })
+  
