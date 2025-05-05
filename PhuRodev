@@ -218,6 +218,15 @@ local Window = ArrayField:CreateWindow({
         Callback = function()
             --function
             loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/reworked-bypass-v2/refs/heads/main/Protected_7262663125150928.lua.txt"))()
+            wait(0.3)
+            --tatscreen
+            local blockerGui = game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("BlockerGui")
+            local tat = blockerGui:FindFirstChild("Frame")
+            local chu = tat:FindFirstChild("TextLabel")
+
+            tat.Transparency = 1
+            chu.Transparency = 1
+            
             --function
         end,
     })
